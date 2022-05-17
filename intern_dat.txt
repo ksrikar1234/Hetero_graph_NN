@@ -1,0 +1,52 @@
+progress on writing the model 
+
+
+understanding libraries.
+how to send the data into the model.
+1. data loading , data preprocessing  , data trasformation.
+2.send the data into the model.
+3.tune the model. 
+4.train the model.
+5.validate aganist the test data set.
+
+
+
+--------------------Total number of transactions ----------------------------
+
+total cases : - 25200 
+
+-------------------- Category 0f transaction --------------------------------
+
+total sectors : 14
+
+Labeling Sectors in alphabetical order
+
+Beauty&Wellness - 0
+Contents - 1
+Fashion - 2
+Groceries - 3
+Health -4
+Home -5
+HotelServices -6
+Leisure - 7
+OtherServices - 8
+Restaurants&Bars - 9
+Sports&Toys - 10
+Technology - 11
+Transportation - 12 
+Travel - 13
+
+-----------------------------------------------------
+Merchants
+Merchants id
+-----------------------------------------------------
+---------------User data ----------------------------
+
+Users Id    = ""
+User Age group{ range : label}  = { 
+                                   {unknown: "0"},  {0-18   : "1"} , {18-26 : "2"} , 
+                                   {26-36  : "3"},  {36-46  : "4"} , {46-56 : "6"} ,
+                                   {56-65  : "7"},  {65-100 : "8"} 
+                                  }
+User type = { Male : 0 , Female : 1 ,  Enterprise : 2 , unknown : 3 }  
+
