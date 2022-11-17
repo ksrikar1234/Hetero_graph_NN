@@ -106,8 +106,7 @@ data['user', 'rates', 'movie'].edge_index = edge_index
 data['user', 'rates', 'movie'].edge_label = edge_label
 print(data)
 
-# We can now convert `data` into an appropriate format for training a
-# graph-based machine learning model:
+
 
 # 1. Add a reverse ('movie', 'rev_rates', 'user') relation for message passing.
 data = ToUndirected()(data)
